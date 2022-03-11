@@ -1,0 +1,108 @@
+/* .pcfCustomField {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  line-height: 2.5rem;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: rgb(0, 0, 0);
+  -webkit-appearance: none;
+}
+
+.pcfCustomField::placeholder {
+  font-size: .8rem;
+  font-weight: 400;
+  color: #777;
+  font-style: italic;
+}
+
+.pcfCustomField::placeholder:focus {
+  color: rgba(0, 0, 0, 0)
+}
+
+.pcfCustomField:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(102, 102, 102);
+}
+
+.pcfCustomField:focus {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(102, 102, 102);
+}
+
+.pcfCustomOptionList {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  line-height: 2.5rem;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: rgb(0, 0, 0);
+  -webkit-appearance: none;
+}
+
+input[name="autocomplete_value_logical_name"] {
+  border: 1px solid blue;
+  /* border-radius: 10px 10px 10px 10px; */
+/* font-size: 18px;
+  padding: 5px;
+  height: 35px;
+  width: 350px; */
+}
+
+input[name="autocomplete_value_logical_name"] {
+  background-image: url();
+  background-size: 15px 20px;
+  background-position: right;
+  padding: 10px;
+  background-repeat: no-repeat;
+}
+
+input::-webkit-calendar-picker-indicator {
+  /*   display: none; */
+}
+
+*/ .datalist-arrow {
+  position: relative;
+}
+
+.datalist-arrow:after {
+  content: '\25bc';
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+  background: #fff;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  pointer-events: none;
+}

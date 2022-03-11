@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="ICK" constructor="SIRENEAutoComplete" version="0.0.15" display-name-key="SIRENEAutoComplete" description-key="Retrieve french companies informations from Pappers" control-type="standard">
+    <property name="value" display-name-key="Auto Complete Field?" description-key="Select the field that you want this auto complete fuction to be bound too." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="siret" display-name-key="SIRET" description-key="Company SIRET" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="companyName" display-name-key="Company Name" description-key="Company Name" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="codeNAF" display-name-key="code NAF" description-key="Code NAF" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="libelleCodeNAF" display-name-key="Libelle Code NAF" description-key="Libelle Code NAF" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="formeJuridique" display-name-key="Forme Juridique" description-key="FormeJuridique" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="adresse" display-name-key="Adresse" description-key="Adresse" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="code_postal" display-name-key="Code Postal" description-key="Code Postal" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="ville" display-name-key="Ville" description-key="Ville" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <!-- 
+      Property node's of-type attribute can be of-type-group attribute. 
+      Example:
+      <type-group name="numbers">
+        <type>Whole.None</type>
+        <type>Currency</type>
+        <type>FP</type>
+        <type>Decimal</type>
+      </type-group>
+      <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
+    -->
+    <resources>
+      <code path="index.ts" order="1" />
+      <!-- <code path="js/fabric.min.js.ts" order="2" /> -->
+      <css path="css/fabric.min.css" order="1" />
+      <css path="css/fabric.components.min.css" order="1" />
+    </resources>
+    <!-- UNCOMMENT TO ENABLE THE SPECIFIED API
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    -->
+  </control>
+</manifest>1
