@@ -2,9 +2,9 @@
 <manifest>
   <control namespace="ICK" constructor="SIRENEAutoComplete" version="0.0.15" display-name-key="SIRENEAutoComplete" description-key="Retrieve french companies informations from Pappers" control-type="standard">
     <property name="value" display-name-key="Auto Complete Field?" description-key="Select the field that you want this auto complete fuction to be bound too." of-type="SingleLine.Text" usage="bound" required="true" />
-    <property name="siret" display-name-key="SIRET" description-key="Company SIRET" of-type="SingleLine.Text" usage="bound" required="false" />
-    <property name="companyName" display-name-key="Company Name" description-key="Company Name" of-type="SingleLine.Text" usage="bound" required="false"/>
-    <property name="codeNAF" display-name-key="code NAF" description-key="Code NAF" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="phoneNumber" display-name-key="SIRET" description-key="Company SIRET" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="name" display-name-key="Company Name" description-key="Company Name" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="email" display-name-key="code NAF" description-key="Code NAF" of-type="SingleLine.Text" usage="bound" required="false"/>
     <property name="libelleCodeNAF" display-name-key="Libelle Code NAF" description-key="Libelle Code NAF" of-type="SingleLine.Text" usage="bound" required="false"/>
     <property name="formeJuridique" display-name-key="Forme Juridique" description-key="FormeJuridique" of-type="SingleLine.Text" usage="bound" required="false"/>
     <property name="adresse" display-name-key="Adresse" description-key="Adresse" of-type="SingleLine.Text" usage="bound" required="false"/>
